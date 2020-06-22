@@ -1,0 +1,39 @@
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <title>Prototype</title>
+  </head>
+ <body>
+ <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>   
+   <h2>Upload Image Prototype</h2> 
+  <table>
+    <tr>
+    <th id="1">Foreground Image</th>  
+    <th id="2" >Background Image</th>
+    <th id="3">Output Image</th>  
+    </tr>
+  <tr>
+  <td>  
+  <canvas id="fgcan">
+    </canvas></td>
+  <td>  
+   <canvas id="bgcan">
+    </canvas> </td>
+   <td>  
+   <canvas id="opcan">
+    </canvas> </td> 
+    </tr>
+   </table>  
+  <p>
+   Foreground:
+   <input class="input1" type="file" id="fgfile" multiple="false" 
+          accept="image/*" onchange="loadForegroundImage()">
+  <br>
+   Background:
+   <input class="input1" type="file" id="bgfile" multiple="false" 
+          accept="image/*" onchange="loadBackgroundImage()">  
+   </p>
+<input class="input2" type="button" value="Show Output" onclick="greenScreen()">
+<input class="input2" type="button" value="Clear Canvas" onclick="clearcanvas()">   
+  </body>  
+</html>  

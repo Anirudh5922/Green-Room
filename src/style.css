@@ -1,0 +1,33 @@
+body{
+  background-color:cyan;
+}
+canvas{
+  height: 203px;
+  width: 400px;
+  border: 3px solid;
+}
+
+.input1{
+  font-size:12pt;
+  color:white;
+}
+.input2{
+  font-size:12pt;
+  color:black;
+}
+
+h2
+{
+  background-color:#00008f;
+  color:white;
+}
+
+p{
+  background-color:#00008f;
+  border: 5px;
+   color:white;
+}
+th
+{ background-color:black;
+  color:white;
+ }
